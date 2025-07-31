@@ -11,7 +11,7 @@ class myClass:
     # Function to print value of private variable
     def hello(self):
         print("Private Variable value: ", myClass.__privateVar)
-        __privMeth(self)
+        self.__privMeth()
 # Object creation and method call
 foo = myClass()
 foo.hello()
