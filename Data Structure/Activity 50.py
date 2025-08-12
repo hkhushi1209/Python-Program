@@ -19,7 +19,7 @@ while(True):
   flash.append(flashcard(word, meaning))
   option = int(input("enter 0, if you want to add another flashcard otherwise enter 1 : "))
 
-  if(option==0):
+  if(option==1):
    break
 
 
